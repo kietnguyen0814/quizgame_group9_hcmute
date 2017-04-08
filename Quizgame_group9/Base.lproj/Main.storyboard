@@ -23,16 +23,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t52-gE-jiO">
-                                <rect key="frame" x="31" y="50" width="313" height="30"/>
+                                <rect key="frame" x="31" y="50" width="313" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="RQW-3S-dRU"/>
+                                    <constraint firstAttribute="height" constant="40" id="X5D-Z3-zb9"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieY-WV-YYq">
-                                <rect key="frame" x="15" y="340" width="345" height="20"/>
+                                <rect key="frame" x="15" y="350" width="345" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="pQQ-to-GXU"/>
                                 </constraints>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2G-Ku-OTu">
-                                <rect key="frame" x="15" y="90" width="345" height="50"/>
+                                <rect key="frame" x="15" y="100" width="345" height="50"/>
                                 <color key="backgroundColor" red="0.27180099032167421" green="0.94808533031088082" blue="0.2338438126780589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="7Yy-3k-qJk"/>
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyL-y7-Nku">
-                                <rect key="frame" x="15" y="150" width="345" height="50"/>
+                                <rect key="frame" x="15" y="160" width="345" height="50"/>
                                 <color key="backgroundColor" red="0.27180099029999999" green="0.94808533029999997" blue="0.23384381269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TLJ-cg-jOF"/>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyQ-fR-shY">
-                                <rect key="frame" x="15" y="210" width="345" height="50"/>
+                                <rect key="frame" x="15" y="220" width="345" height="50"/>
                                 <color key="backgroundColor" red="0.27180099029999999" green="0.94808533029999997" blue="0.23384381269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ilL-MV-fMJ"/>
@@ -74,7 +74,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLU-ia-hhf">
-                                <rect key="frame" x="15" y="270" width="345" height="50"/>
+                                <rect key="frame" x="15" y="280" width="345" height="50"/>
                                 <color key="backgroundColor" red="0.27180099029999999" green="0.94808533029999997" blue="0.23384381269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qSE-Wc-mMY"/>
@@ -85,7 +85,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4n-94-gH8">
-                                <rect key="frame" x="262" y="375" width="98" height="45"/>
+                                <rect key="frame" x="262" y="385" width="98" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="3rL-Dr-eXX"/>
                                 </constraints>
@@ -130,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="127" y="-5"/>
+            <point key="canvasLocation" x="118" y="-257"/>
         </scene>
     </scenes>
 </document>
